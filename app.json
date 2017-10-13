@@ -1,12 +1,12 @@
 {
   "name": "Plone Mosaic on Heroku",
   "description": "A Plone Mosaic technology preview on Heroku. Login with admin:admin.",
-  "repository": "https://github.com/plone/plone.app.mosaic",
+  "repository": "https://github.com/datakurre/plone.app.mosaic",
   "logo": "http://www.coactivate.org/projects/plone-marketing/plone-logo-guidelines/plone-vertical-logo.png",
   "keywords": ["plone", "python", "cms"],
   "website": "http://plone.org",
   "env": {
-      "BUILDPACK_URL": "https://github.com/plone/plone.app.mosaic"
+      "BUILDPACK_URL": "https://github.com/datakurre/plone.app.mosaic"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
